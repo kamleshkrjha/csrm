@@ -1,0 +1,28 @@
+.card {
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 10px;
+    height: 400px;
+}
+
+.score-section {
+    font-family: 'Lucida Sans';
+    padding-left: 20px;
+}
+
+.score-section .title {
+    text-align: center;
+    text-shadow: 10px;
+    text-decoration: underline;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
